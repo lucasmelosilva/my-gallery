@@ -23,7 +23,6 @@
 
 .profile-user__image {
   width: 101px;
-  height: 100px;
   border-radius: 16px;
   margin-bottom: 10px;
 }
@@ -48,16 +47,52 @@
 }
 
 .profile-status__item {
+  align-items: center;
   background-color: #e5e5e5;
   border-radius: 12px;
+  display: flex;
   font-size: 12px;
+  flex-flow: column;
+  justify-content: center;
   height: 52px;
   line-height: 15px;
   padding: 10px;
-  text-align: center;
   width: 78px;
 }
 
 .profile-status__item > span {
   color: #bdbdbd;
+}
+
+@media screen and (min-width: 1020px) {
+  .profile-user__image {
+    width: 156px;
+    margin-bottom: 15px;
+  }
+  .profile-user__name {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 10px;
+  }
+
+  .profile-user__location {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .profile-status {
+    width: 350px;
+  }
+
+  .profile-status__item {
+    font-size: 18px;
+    height: 70px;
+    line-height: 22px;
+    width: 100px;
+  }
+
+  .profile-status__item > span {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
