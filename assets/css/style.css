@@ -103,6 +103,17 @@
   grid-area: photo-6;
 }
 
+footer {
+  color: #b9bdcf;
+  margin-top: 55px;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer > strong {
+  font-weight: bold;
+}
+
 @media screen and (min-width: 1020px) {
   .container {
     width: 70%;
@@ -144,5 +155,9 @@
   .gallery {
     gap: 20px;
     margin-top: 60px;
+  }
+
+  footer {
+    margin-top: 170px;
   }
 }
